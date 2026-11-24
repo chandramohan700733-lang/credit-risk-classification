@@ -1,0 +1,33 @@
+{
+  "best_model": "Random forest",
+  "test_roc_auc": 0.758,
+  "test_roc_auc_95ci": [
+    0.684,
+    0.828
+  ],
+  "test_pr_auc": 0.612,
+  "no_skill_pr_auc": 0.3,
+  "cost_ratio_FN_to_FP": "5:1",
+  "threshold_050": {
+    "threshold": 0.5,
+    "tn": 112,
+    "fp": 28,
+    "fn": 28,
+    "tp": 32,
+    "recall_bad": 0.533,
+    "precision_bad": 0.533,
+    "cost": 168
+  },
+  "threshold_cost_based": {
+    "threshold": 0.33,
+    "tn": 72,
+    "fp": 68,
+    "fn": 9,
+    "tp": 51,
+    "recall_bad": 0.85,
+    "precision_bad": 0.429,
+    "cost": 113
+  },
+  "cv_auc_with_sensitive": 0.796,
+  "cv_auc_without_sensitive": 0.79
+}
